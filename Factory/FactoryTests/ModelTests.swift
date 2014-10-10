@@ -1,5 +1,5 @@
 //
-//  FactoryTests.swift
+//  ModelTests.swift
 //  FactoryTests
 //
 //  Created by Mark Hazlett on 2014-10-06.
@@ -7,8 +7,9 @@
 //
 
 import XCTest
+import Factory
 
-class FactoryTests: XCTestCase {
+class ModelTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

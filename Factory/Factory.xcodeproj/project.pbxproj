@@ -12,6 +12,9 @@
 		4D1681F719E3371A000909A6 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1681F619E3371A000909A6 /* Factory.swift */; };
 		4D16821C19E33E2A000909A6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D16821919E33D92000909A6 /* Alamofire.framework */; };
 		4D16821E19E33E5F000909A6 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4D16821919E33D92000909A6 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D16822019E343CF000909A6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D16821F19E343CF000909A6 /* Model.swift */; };
+		4D16822219E343F6000909A6 /* NetworkObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D16822119E343F6000909A6 /* NetworkObject.swift */; };
+		4D16822519E468F4000909A6 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D16822419E468F4000909A6 /* ModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		4D1681EC19E33709000909A6 /* FactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryTests.swift; sourceTree = "<group>"; };
 		4D1681F619E3371A000909A6 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		4D16821319E33D92000909A6 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		4D16821F19E343CF000909A6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4D16822119E343F6000909A6 /* NetworkObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkObject.swift; sourceTree = "<group>"; };
+		4D16822419E468F4000909A6 /* ModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				4D1681F619E3371A000909A6 /* Factory.swift */,
+				4D16821F19E343CF000909A6 /* Model.swift */,
+				4D16822119E343F6000909A6 /* NetworkObject.swift */,
 				4D1681E219E33709000909A6 /* Factory.h */,
 				4D1681E019E33709000909A6 /* Supporting Files */,
 			);
@@ -116,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				4D1681EC19E33709000909A6 /* FactoryTests.swift */,
+				4D16822419E468F4000909A6 /* ModelTests.swift */,
 				4D1681EA19E33709000909A6 /* Supporting Files */,
 			);
 			path = FactoryTests;
@@ -269,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1681F719E3371A000909A6 /* Factory.swift in Sources */,
+				4D16822019E343CF000909A6 /* Model.swift in Sources */,
+				4D16822219E343F6000909A6 /* NetworkObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1681ED19E33709000909A6 /* FactoryTests.swift in Sources */,
+				4D16822519E468F4000909A6 /* ModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +462,7 @@
 				4D1681F219E33709000909A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D1681F319E33709000909A6 /* Build configuration list for PBXNativeTarget "FactoryTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +471,7 @@
 				4D1681F519E33709000909A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
