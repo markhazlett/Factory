@@ -7,11 +7,22 @@
 //
 
 import Foundation
-import Alamofire
 
 public class Model: NetworkObject {
-    init(json: String) {
+    public init(attributes: String) {
+        let myAttributes = attributes.dictionaryFromJSON()
         
+        super.init()
+        
+        updateModelWithJson(myAttributes)
+    }
+    
+    public func updateModelWithJson(json: Dictionary<String, AnyObject>?) {
+        println("Method Not Overriden. This need to get overriden to get anything set on it")
+    }
+    
+    public func testMethod() -> String {
+        println("Here in Test Method")
+        return "This is a test"
     }
 }
-

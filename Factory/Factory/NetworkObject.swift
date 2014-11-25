@@ -7,8 +7,9 @@
 //
 
 import Foundation
-import Alamofire
 
 public class NetworkObject {
-    
+    func getFromEndpoint(endpoint: String, params: Dictionary<String, AnyObject>?, onSuccess:() -> Void, onFailure:() -> Void) {
+        onSuccess()
+    }
 }

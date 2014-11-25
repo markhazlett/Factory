@@ -15,6 +15,7 @@
 		4D16822019E343CF000909A6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D16821F19E343CF000909A6 /* Model.swift */; };
 		4D16822219E343F6000909A6 /* NetworkObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D16822119E343F6000909A6 /* NetworkObject.swift */; };
 		4D16822519E468F4000909A6 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D16822419E468F4000909A6 /* ModelTests.swift */; };
+		4DE6AB551A1EEEBD009BB6E3 /* JSONExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6AB541A1EEEBD009BB6E3 /* JSONExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		4D16821F19E343CF000909A6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		4D16822119E343F6000909A6 /* NetworkObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkObject.swift; sourceTree = "<group>"; };
 		4D16822419E468F4000909A6 /* ModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		4DE6AB541A1EEEBD009BB6E3 /* JSONExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				4D1681F619E3371A000909A6 /* Factory.swift */,
 				4D16821F19E343CF000909A6 /* Model.swift */,
 				4D16822119E343F6000909A6 /* NetworkObject.swift */,
+				4DE6AB541A1EEEBD009BB6E3 /* JSONExtension.swift */,
 				4D1681E219E33709000909A6 /* Factory.h */,
 				4D1681E019E33709000909A6 /* Supporting Files */,
 			);
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1681F719E3371A000909A6 /* Factory.swift in Sources */,
+				4DE6AB551A1EEEBD009BB6E3 /* JSONExtension.swift in Sources */,
 				4D16822019E343CF000909A6 /* Model.swift in Sources */,
 				4D16822219E343F6000909A6 /* NetworkObject.swift in Sources */,
 			);
